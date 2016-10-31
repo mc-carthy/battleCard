@@ -5,11 +5,11 @@ using System.Collections.Generic;
 public class CircleOutline : ModifiedShadow
 {
     [SerializeField]
-    int m_circleCount = 2;
+    private int m_circleCount = 2;
     [SerializeField]
-    int m_firstSample = 4;
+	private int m_firstSample = 4;
     [SerializeField]
-    int m_sampleIncrement = 2;
+	private int m_sampleIncrement = 2;
 
 #if UNITY_EDITOR
     protected override void OnValidate()
