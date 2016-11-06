@@ -28,7 +28,7 @@ public class DraggableTestWithActions : MonoBehaviour {
         if (da.CanDrag)
         {
             dragging = true;
-            //HoverPreview.PreviewsAllowed = false;       // NEW LINE
+            HoverPreview.PreviewsAllowed = false;
             da.OnStartDrag();
             zDisplacement = -Camera.main.transform.position.z + transform.position.z;
             if (UsePointerDisplacement)
@@ -55,7 +55,7 @@ public class DraggableTestWithActions : MonoBehaviour {
         if (dragging)
         {
             dragging = false;
-            //HoverPreview.PreviewsAllowed = true;   // NEW LINE
+            HoverPreview.PreviewsAllowed = true;
             da.OnEndDrag();
         }
     }   
