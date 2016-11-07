@@ -68,8 +68,7 @@ public class HoverPreview: MonoBehaviour
     // OTHER METHODS
     void PreviewThisObject()
     {
-        // 1) clone this card 
-        // first disable the previous preview if there is one already
+		// 1) first disable the previous preview if there is one already
         StopAllPreviews();
         // 2) save this HoverPreview as curent
         currentlyViewing = this;
