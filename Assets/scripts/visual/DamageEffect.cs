@@ -52,7 +52,6 @@ public class DamageEffect : MonoBehaviour {
     /// <param name="position">Position.</param>
     /// <param name="amount">Amount.</param>
    
-	/*
     public static void CreateDamageEffect(Vector3 position, int amount)
     {
         if (amount == 0)
@@ -73,5 +72,4 @@ public class DamageEffect : MonoBehaviour {
         // start a coroutine to fade away and delete this effect after a certain time
         de.StartCoroutine(de.ShowDamageEffect());
     }
-    */
 }
